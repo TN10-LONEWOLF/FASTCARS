@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save Our Wildlife</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <main class="container">
+        <h1>Save Our Wildlife</h1>
+
+        <div class="content-wrapper">
+            <div id="videoContainer" class="video-container" aria-live="polite">
+                <video id="wildlifeVideo" controls aria-label="Promotional video showing wildlife conservation efforts">
+                    <source src="wildlife.mp4" type="video/mp4">
+                    Your browser does not support the video tag. Please update your browser.
+                </video>
+            </div>
+
+            <p id="videoDescription" class="description">
+                Join our conservation efforts today. This video highlights our recent field work to protect endangered species and restore natural habitats around the globe.
+            </p>
+
+            <button id="toggleBtn" class="action-btn" aria-controls="videoContainer" aria-expanded="true">
+                Hide Video
+            </button>
+        </div>
+    </main>
+
+</body>
+</html>
